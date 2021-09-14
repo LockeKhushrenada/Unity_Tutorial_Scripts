@@ -152,6 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2e08b49cb1c9e848b0a630316b7b849, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  str: pneumonoultramicroscopicsilicovolcanoconiosis
 --- !u!4 &449658409
 Transform:
   m_ObjectHideFlags: 0
