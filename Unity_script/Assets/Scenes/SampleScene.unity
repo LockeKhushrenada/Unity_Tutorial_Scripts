@@ -153,6 +153,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   str: pneumonoultramicroscopicsilicovolcanoconiosis
+  words:
+  - lmao
+  - mao
 --- !u!4 &449658409
 Transform:
   m_ObjectHideFlags: 0

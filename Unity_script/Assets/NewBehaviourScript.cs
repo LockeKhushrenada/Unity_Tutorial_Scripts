@@ -9,11 +9,13 @@ public class NewBehaviourScript : MonoBehaviour
 {
     // Start is called before the first frame update
     public string str = " ";
+    public List<string> words;
     static int ASCII_SIZE = 256;
     void Start()
     {
         printNums();
         Debug.Log(getMaxOccuringChar(str));
+        getAllLetters(words);
     }
 
     // Update is called once per frame
@@ -54,6 +56,21 @@ public class NewBehaviourScript : MonoBehaviour
             }
         }
         return result;
+    }
+    public static void getAllLetters(List<string> words)
+    {
+        string usedLetters = "";
+        foreach(string word in words)
+        {
+            foreach(char letter in word)
+            {
+                if(!usedLetters.Contains(letter))
+                {
+                    usedLetters = usedLetters + letter;
+                }
+            }
+        }
+        Debug.Log(usedLetters);
     }
     
 }
